@@ -1,0 +1,6 @@
+
+!.gitignore
+!.gitattributes
+*
+!uk_outcode_regions.geojson
+
