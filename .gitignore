@@ -2,5 +2,5 @@
 !.gitignore
 !.gitattributes
 *
-!uk_outcode_regions.geojson
+!uk_outcode_regions.geojson.gz
 
