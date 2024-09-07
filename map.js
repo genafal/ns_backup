@@ -15,10 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         Promise.all([
             //d3.json("uk_outcode_regions.geojson"),
-            d3.json('https://genafal-noisesolution.s3.us-east-2.amazonaws.com/uk_outcode_regions.geojson').then(function(data) {
-                // Process the GeoJSON data
-            });
-
+            d3.json('https://genafal-noisesolution.s3.us-east-2.amazonaws.com/uk_outcode_regions.geojson'),
             d3.csv("data_for_map.csv")
         ]).then(function([geojsonData, csvData]) {
 
