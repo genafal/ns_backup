@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Noise Solution - Viz for Social Good</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat, sans-serif;
+            background-color: black;
+            color: white;
+        }
+
+        .banner a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.3em;
+        }
+        .banner a:hover {
+            text-decoration: underline;
+        }
+        .iframe-container {
+            width: 100%;
+            height: calc(100vh - 50px);
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .banner {
+            background-color: black;
+            padding-right: 10%; /* Adjust side padding as needed */
+            padding-left: 10%; /* Adjust side padding as needed */
+            padding-top: 75px;
+            display: flex;
+            align-items: flex-end; /* Align links to the bottom */
+            justify-content: space-between;
+            height: 120px !important; /* Force the height */           
+        }
+
+        .banner-left {
+            display: flex;
+            align-items: flex-end; /* Align SVG to the bottom */                     
+        }
+
+        .banner-middle {
+            display: flex;
+            gap: 20px; /* Space between the links */
+            align-items: flex-end; /* Align links to the bottom */
+            padding-bottom: 40px;            
+        }
+
+        .banner-right {
+            display: flex;
+            align-items: flex-end; /* Align links to the bottom */          
+        }
+
+        .banner-svg {
+            height: 150px; /* Adjust SVG size as needed */           
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        <div class="banner-left">
+                <a href="home.html" target="content-frame">
+                    <img src="Noise Solution Logo_CORE - White and Acid Green Duotone.svg" alt="Logo" class="banner-svg">
+                </a>
+        </div>
+
+        <div class="banner-middle">
+            <a href="explore.html" target="content-frame">Drill Down to Detail</a>
+            <a href="demographic.html" target="content-frame">Demographic Breakdown</a>
+            <a href="map.html" target="content-frame">Explore by Region (beta)</a>
+        </div>   
+
+        <div class="banner-right">    
+            <a href="https://www.vizforsocialgood.com" target="_blank">
+                <img src="VFSG logo square for dark background.svg" alt="Logo" class="banner-svg">
+            </a> 
+        </div>
+    </div>
+
+    <iframe class="iframe-container" name="content-frame" src="home.html"></iframe>
+
+</body>
+</html>

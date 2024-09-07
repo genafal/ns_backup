@@ -1,0 +1,117 @@
+/* Center the main container */
+#container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align all elements horizontally */
+    justify-content: center; /* Center-align all elements vertically */
+    gap: 20px; /* Space between each section */
+    min-height: 100vh; /* Full viewport height to center vertically */
+    text-align: center; /* Centers text and inline elements */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* General text elements */
+h1, p, label, select {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700; /* Bold */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Controls (dropdowns) */
+#controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+label, select {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+select {
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+}
+
+/* Legend container */
+#legend-container {
+    display: flex;
+    justify-content: center; /* Centers the legend horizontally */
+    align-items: center; /* Centers the legend vertically */
+    width: 100%;
+    margin: 10px 0;
+}
+
+#legend {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Chart container */
+#chart-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tooltip */
+#tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+/* Ensure all text inside the SVGs is centered and styled */
+svg text {
+    font-family: 'Montserrat', sans-serif;
+    fill: white;
+}
+
+/* Center the SVG within the container */
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ensure all content is centered */
+body > #container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}

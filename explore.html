@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average SWEMWBS Score Change</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+        
+        <h1>Average SWEMWBS Score Change</h1>
+
+        <p>Select the factors that interest you, to discover average SWEMWBS score changes across demographic groups.</p>
+
+        <div class="controls">
+            <label for="age-group">Age Group:</label>
+            <select id="age-group" class="dropdown"></select>
+
+            <label for="location">Location:</label>
+            <select id="location" class="dropdown"></select>
+
+            <label for="ethnicity">Ethnicity:</label>
+            <select id="ethnicity" class="dropdown"></select>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" class="dropdown"></select>
+
+            <button id="clear-button">Clear</button>
+
+        </div>
+    
+        <!-- <div id="avg-score" class="center-text"></div> -->
+        <div align="center" id="result">Average Score Change: <span id="avg-score">0</span></div>
+
+        <div id="beeswarm-chart-container">
+            <svg></svg>
+    </div>
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="explore.js"></script>
+</body>
+</html>

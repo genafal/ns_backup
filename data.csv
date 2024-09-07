@@ -1,0 +1,410 @@
+﻿age_group,gender,ethnicity,location,participant_industry,has_external_interaction,change_reported,size_of_change,score_change
+Age 13-15,Unknown,Unknown,St. Albans,Local Government,Yes,Positive,5.78,5.78
+Age 13-15,Male,White,Bath,Education,Yes,Positive,5.78,5.78
+Age 13-15,Female,White,Bournemouth,Local Government,Yes,Negative,3.29,-3.29
+Age 16-19,Male,White,Cambridge,Education,No,Positive,3.38,3.38
+Age 16-19,Male,White,Cambridge,Other,Yes,Negative,1.59,-1.59
+Age 16-19,Male,White,Cambridge,Other,Yes,Negative,1.16,-1.16
+Age 10-12,Male,White,Cambridge,Education,No,Positive,3.1,3.1
+Age 10-12,Female,White,Cambridge,Education,No,Positive,5.23,5.23
+Age 16-19,Female,White,Cambridge,Other,No,Positive,1.67,1.67
+Age 13-15,Female,Unknown,Cambridge,Education,No,No change,0,0
+Age 13-15,Male,Unknown,Cambridge,Education,Yes,Positive,0.75,0.75
+Age 13-15,Male,White,Cambridge,Education,No,Positive,0.86,0.86
+Age 10-12,Male,Mixed,Cambridge,Other,Yes,No change,0,0
+Age 13-15,Male,Unknown,Cambridge,Other,Yes,Negative,0.52,-0.52
+Age 16-19,Male,White,Cambridge,Education,Yes,Positive,0.81,0.81
+Age 10-12,Male,Unknown,Cambridge,Education,Yes,Positive,0.81,0.81
+Age 13-15,Male,White,Cambridge,Other,Yes,Positive,2.95,2.95
+Age 16-19,Male,Unknown,Cambridge,Education,Yes,Positive,2.75,2.75
+Unknown,Male,White,Cambridge,Education,Yes,Negative,2.29,-2.29
+Age 10-12,Male,White,Cambridge,Other,No,Negative,1.91,-1.91
+Age 13-15,Male,White,Cambridge,Education,No,Positive,5.2,5.2
+Age 4-9,Male,White,Cambridge,Other,No,Negative,0.75,-0.75
+Age 10-12,Male,White,Cambridge,Education,No,Negative,5.49,-5.49
+Age 10-12,Male,White,Cambridge,Unknown,Yes,No change,0,0
+Age 13-15,Male,Unknown,Cambridge,Other,Yes,Negative,1.48,-1.48
+Age 16-19,Male,White,Cambridge,Education,No,Positive,9.13,9.13
+Age 16-19,Male,Asian,Cambridge,Other,No,Positive,7.77,7.77
+Age 13-15,Unknown,Unknown,Cambridge,Education,Yes,Positive,3.1,3.1
+Age 16-19,Male,White,Cambridge,Education,Yes,Positive,9.74,9.74
+Age 10-12,Male,Unknown,Cambridge,Education,No,Positive,2.48,2.48
+Age 10-12,Male,White,Cambridge,Other,No,Positive,6.85,6.85
+Age 20-24,Male,White,Cambridge,Education,Yes,Positive,2.81,2.81
+Age 13-15,Male,White,Cambridge,Other,Yes,Positive,6.1,6.1
+Unknown,Female,Black,Cambridge,Other,No,Positive,16.88,16.88
+Age 4-9,Male,Mixed,Cambridge,Education,No,Negative,2.51,-2.51
+Age 4-9,Male,Mixed,Cambridge,Education,No,Positive,3.1,3.1
+Age 13-15,Female,White,Cambridge,Other,Yes,Negative,3.56,-3.56
+Age 13-15,Male,White,Cambridge,Other,Yes,Positive,6.44,6.44
+Age 10-12,Unknown,Unknown,Cambridge,Education,Yes,Negative,1.91,-1.91
+Age 10-12,Female,Asian,Cambridge,Education,Yes,Positive,7.75,7.75
+Age 13-15,Male,Unknown,Cambridge,Other,Yes,Positive,11.25,11.25
+Age 13-15,Male,Unknown,Cambridge,Education,Yes,Positive,2.68,2.68
+Age 13-15,Unknown,Unknown,Cambridge,Education,Yes,Positive,1.82,1.82
+Age 13-15,Unknown,Unknown,Cambridge,Education,Yes,Negative,2,-2
+Age 13-15,Unknown,Unknown,Cambridge,Education,Yes,Negative,0.81,-0.81
+Age 10-12,Unknown,Unknown,Cambridge,Education,Yes,Positive,3.38,3.38
+Age 13-15,Female,White,Cambridge,Education,Yes,Positive,1.67,1.67
+Age 13-15,Female,White,Cambridge,Education,Yes,Positive,0.55,0.55
+Age 10-12,Female,White,Cambridge,Education,Yes,Positive,0.86,0.86
+Age 10-12,Male,Declined to say,Cambridge,Education,No,Positive,2.81,2.81
+Age 13-15,Male,White,Cambridge,Education,No,Negative,0.99,-0.99
+Age 4-9,Male,Unknown,Cambridge,Education,No,Negative,6.85,-6.85
+Age 10-12,Male,Unknown,Cambridge,Other,Yes,Positive,9.34,9.34
+Age 13-15,Male,White,Cambridge,Education,No,Positive,6.77,6.77
+Age 13-15,Male,White,Cambridge,Education,No,Negative,5.05,-5.05
+Age 13-15,Female,Unknown,Cambridge,Other,Yes,Negative,0.73,-0.73
+Age 10-12,Male,Unknown,Cambridge,Education,Yes,Negative,0.86,-0.86
+Age 13-15,Unknown,Unknown,Cambridge,Education,Yes,No change,0,0
+Unknown,Male,Unknown,Cambridge,Education,Yes,Positive,1.91,1.91
+Age 13-15,Male,White,Cambridge,Other,Yes,Negative,4.68,-4.68
+Age 13-15,Male,White,Cambridge,Other,Yes,Positive,6.44,6.44
+Age 4-9,Male,Unknown,Cambridge,Unknown,Yes,Positive,2,2
+Age 13-15,Male,White,Cambridge,Education,No,Positive,6.59,6.59
+Age 10-12,Male,White,Cambridge,Education,No,Positive,6.96,6.96
+Age 16-19,Male,White,Cambridge,Education,No,No change,0,0
+Age 13-15,Female,White,Cambridge,Education,No,Positive,4.62,4.62
+Age 13-15,Male,Mixed,Cambridge,Education,Yes,Negative,2.68,-2.68
+Age 16-19,Female,Mixed,Cambridge,Mental Health,No,Negative,1.67,-1.67
+Age 25+,Female,White,Cambridge,Mental Health,Yes,Positive,5.18,5.18
+Age 10-12,Male,White,Cambridge,Education,Yes,Positive,5.78,5.78
+Age 16-19,Male,White,Cambridge,Mental Health,No,Positive,0.81,0.81
+Age 10-12,Female,Unknown,Cambridge,Mental Health,Yes,Negative,3.23,-3.23
+Age 13-15,Male,White,Cambridge,Local Government,Yes,Positive,5.69,5.69
+Age 13-15,Male,White,Cambridge,Education,No,Positive,3.38,3.38
+Age 13-15,Male,White,Cambridge,Local Government,Yes,Negative,1.62,-1.62
+Age 13-15,Unknown,Unknown,Cambridge,Local Government,Yes,Positive,0.52,0.52
+Age 10-12,Male,White,Cambridge,Education,Yes,Positive,5.2,5.2
+Age 10-12,Unknown,Unknown,Cambridge,Education,Yes,Positive,2,2
+Age 10-12,Male,Unknown,Cambridge,Education,Yes,Positive,4.68,4.68
+Age 20-24,Female,White,Cambridge,Mental Health,No,Positive,16.41,16.41
+Age 10-12,Male,White,Cambridge,Education,Yes,Negative,2,-2
+Age 10-12,Male,Unknown,Cambridge,Education,No,No change,0,0
+Age 16-19,Male,Unknown,Cambridge,Mental Health,No,Positive,5.23,5.23
+Age 16-19,Male,Unknown,Cambridge,Mental Health,No,Positive,6.04,6.04
+Age 10-12,Female,White,Cambridge,Mental Health,No,Positive,2.68,2.68
+Age 13-15,Male,Unknown,Cambridge,Education,Yes,Negative,3.38,-3.38
+Age 10-12,Male,White,Cambridge,Education,No,Positive,2.37,2.37
+Age 13-15,Male,White,Cambridge,Mental Health,Yes,Positive,5.78,5.78
+Age 20-24,Male,Unknown,Cambridge,Mental Health,No,Positive,21.3,21.3
+Age 13-15,Female,Declined to say,Cambridge,Unknown,No,Negative,2.14,-2.14
+Age 13-15,Unknown,Unknown,Cambridge,Education,Yes,Positive,4.68,4.68
+Age 4-9,Male,White,Cambridge,Mental Health,Yes,Positive,0.66,0.66
+Age 10-12,Male,Unknown,Chelmsford,Education,Yes,Negative,2.92,-2.92
+Age 13-15,Male,White,Chelmsford,Unknown,No,Negative,0.81,-0.81
+Age 13-15,Male,White,Chelmsford,Local Government,No,Positive,3.82,3.82
+Age 13-15,Male,Unknown,Chelmsford,Education,Yes,Positive,2.95,2.95
+Age 13-15,Male,White,Chelmsford,Education,Yes,Positive,5.78,5.78
+Age 13-15,Male,White,Colchester,Mental Health,Yes,No change,0,0
+Age 13-15,Unknown,Unknown,Colchester,Local Government,Yes,Positive,8.15,8.15
+Age 16-19,Male,White,Colchester,Mental Health,No,Positive,4.37,4.37
+Age 20-24,Male,Unknown,Colchester,Mental Health,No,Positive,2.75,2.75
+Age 10-12,Male,Unknown,Colchester,Education,Yes,Positive,0.73,0.73
+Age 13-15,Unknown,Unknown,Colchester,Local Government,Yes,Negative,1.62,-1.62
+Age 20-24,Male,White,Colchester,Mental Health,No,Positive,11.19,11.19
+Age 10-12,Male,Unknown,Colchester,Education,No,Positive,2.68,2.68
+Age 25+,Male,Unknown,Colchester,Mental Health,No,Negative,1.91,-1.91
+Age 16-19,Male,Unknown,Colchester,Education,No,Negative,1.82,-1.82
+Age 20-24,Male,White,Colchester,Mental Health,No,Positive,4.14,4.14
+Age 13-15,Male,Unknown,Colchester,Education,No,Positive,11.79,11.79
+Age 25+,Male,Unknown,Colchester,Mental Health,No,No change,0,0
+Age 10-12,Female,Unknown,Colchester,Education,No,Positive,0.81,0.81
+Age 16-19,Male,White,Colchester,Local Government,Yes,Positive,1.62,1.62
+Age 20-24,Unknown,Unknown,Colchester,Mental Health,Yes,Positive,10.15,10.15
+Age 13-15,Unknown,Unknown,Colchester,Local Government,Yes,No change,0,0
+Age 13-15,Male,Unknown,Colchester,Unknown,Yes,Positive,4.28,4.28
+Age 13-15,Male,White,Colchester,Unknown,Yes,Positive,1.67,1.67
+Age 10-12,Male,Unknown,Colchester,Other,Yes,Negative,3.38,-3.38
+Age 13-15,Male,White,Colchester,Mental Health,Yes,Positive,10.15,10.15
+Unknown,Female,Black,Colchester,Other,Yes,Positive,7.05,7.05
+Age 10-12,Male,White,Colchester,Education,Yes,Negative,1.01,-1.01
+Age 13-15,Male,Mixed,Ipswich,Education,No,Positive,1.48,1.48
+Age 13-15,Male,White,Ipswich,Unknown,No,No change,0,0
+Age 13-15,Male,Mixed,Ipswich,Education,No,Negative,0.92,-0.92
+Age 13-15,Unknown,Unknown,Ipswich,Local Government,Yes,Positive,2.14,2.14
+Age 25+,Female,Unknown,Ipswich,Mental Health,Yes,Positive,3.23,3.23
+Age 13-15,Male,Unknown,Ipswich,Education,Yes,Positive,2.37,2.37
+Age 13-15,Male,White,Ipswich,Mental Health,No,Positive,0.66,0.66
+Age 10-12,Female,White,Ipswich,Mental Health,Yes,Negative,4.37,-4.37
+Age 10-12,Male,White,Ipswich,Local Government,No,Positive,2,2
+Age 13-15,Female,White,Ipswich,Education,No,Positive,4.11,4.11
+Age 13-15,Male,Unknown,Ipswich,Education,Yes,Positive,1.27,1.27
+Age 10-12,Female,White,Ipswich,Education,No,Positive,3.84,3.84
+Age 13-15,Male,Unknown,Ipswich,Mental Health,Yes,Positive,1.18,1.18
+Age 13-15,Female,White,Ipswich,Education,No,Negative,0.66,-0.66
+Age 13-15,Male,White,Ipswich,Education,No,Positive,0.86,0.86
+Age 10-12,Male,Mixed,Ipswich,Education,No,Negative,10.15,-10.15
+Age 13-15,Male,White,Ipswich,Education,No,Positive,6.96,6.96
+Age 16-19,Male,Unknown,Ipswich,Local Government,Yes,Positive,1.62,1.62
+Age 13-15,Male,White,Ipswich,Mental Health,No,No change,0,0
+Age 10-12,Male,White,Ipswich,Education,No,Negative,0.92,-0.92
+Age 16-19,Male,White,Ipswich,Local Government,No,Negative,1.59,-1.59
+Age 10-12,Male,Unknown,Ipswich,Local Government,No,Positive,0.99,0.99
+Age 13-15,Male,Unknown,Ipswich,Education,No,Negative,1.24,-1.24
+Age 4-9,Male,White,Ipswich,Unknown,Yes,Positive,5.49,5.49
+Unknown,Male,Unknown,Ipswich,Local Government,Yes,Positive,2.75,2.75
+Age 16-19,Unknown,Unknown,Ipswich,Mental Health,Yes,Positive,1.82,1.82
+Age 16-19,Female,Unknown,Ipswich,Local Government,No,Positive,5.78,5.78
+Age 25+,Male,Unknown,Ipswich,Mental Health,No,Positive,1.48,1.48
+Age 13-15,Male,Unknown,Ipswich,Local Government,No,Positive,9.54,9.54
+Age 10-12,Male,Unknown,Ipswich,Education,No,Negative,1.16,-1.16
+Age 13-15,Male,Unknown,Ipswich,Mental Health,Yes,Positive,3.1,3.1
+Age 13-15,Unknown,Unknown,Ipswich,Mental Health,Yes,Negative,0.75,-0.75
+Age 10-12,Male,Unknown,Ipswich,Unknown,Yes,Positive,1.76,1.76
+Age 13-15,Male,White,Ipswich,Mental Health,Yes,Positive,2.37,2.37
+Age 10-12,Female,Unknown,Ipswich,Education,No,Positive,0.99,0.99
+Age 13-15,Unknown,Unknown,Ipswich,Unknown,Yes,No change,0,0
+Age 13-15,Female,White,Ipswich,Local Government,No,Negative,2.66,-2.66
+Age 13-15,Male,White,Ipswich,Other,No,No change,0,0
+Age 13-15,Male,White,Ipswich,Mental Health,Yes,Positive,0.86,0.86
+Age 13-15,Male,White,Ipswich,Mental Health,No,Negative,1.01,-1.01
+Age 13-15,Male,White,Ipswich,Education,No,Positive,15.02,15.02
+Age 10-12,Male,White,Ipswich,Local Government,Yes,Positive,4.68,4.68
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Negative,0.81,-0.81
+Age 10-12,Male,White,Ipswich,Local Government,No,No change,0,0
+Age 16-19,Male,White,Ipswich,Mental Health,No,Positive,0.99,0.99
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Positive,4.13,4.13
+Age 16-19,Female,White,Ipswich,Unknown,No,Negative,1.39,-1.39
+Age 20-24,Male,Unknown,Ipswich,Local Government,Yes,Negative,1.71,-1.71
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Positive,8.44,8.44
+Age 13-15,Male,Unknown,Ipswich,Education,No,Negative,5.29,-5.29
+Age 10-12,Male,White,Ipswich,Unknown,No,No change,0,0
+Age 16-19,Male,White,Ipswich,Mental Health,Yes,No change,0,0
+Age 13-15,Male,White,Ipswich,Local Government,Yes,Positive,5.2,5.2
+Age 13-15,Male,White,Ipswich,Mental Health,No,Positive,0.81,0.81
+Age 20-24,Female,White,Ipswich,Mental Health,Yes,Positive,5.78,5.78
+Age 16-19,Male,Unknown,Ipswich,Local Government,Yes,Negative,2.92,-2.92
+Age 13-15,Unknown,Unknown,Ipswich,Local Government,Yes,Positive,6.77,6.77
+Age 13-15,Male,White,Ipswich,Education,Yes,Positive,7.49,7.49
+Age 16-19,Unknown,Unknown,Ipswich,Mental Health,Yes,Negative,1.59,-1.59
+Age 16-19,Male,Unknown,Ipswich,Local Government,Yes,Positive,3.67,3.67
+Age 16-19,Female,White,Ipswich,Unknown,Yes,Positive,5.52,5.52
+Age 13-15,Male,White,Ipswich,Education,No,Negative,4.13,-4.13
+Age 13-15,Male,White,Ipswich,Local Government,No,Negative,0.73,-0.73
+Age 25+,Male,White,Ipswich,Local Government,No,Positive,4.13,4.13
+Age 13-15,Male,White,Ipswich,Local Government,No,Negative,0.66,-0.66
+Age 13-15,Male,White,Ipswich,Unknown,Yes,Positive,4.48,4.48
+Age 16-19,Male,Unknown,Ipswich,Local Government,Yes,Positive,3.1,3.1
+Age 10-12,Male,Unknown,Ipswich,Education,No,Positive,6.59,6.59
+Age 13-15,Female,White,Ipswich,Education,No,Positive,7.43,7.43
+Age 13-15,Male,White,Ipswich,Education,No,Positive,2.81,2.81
+Age 10-12,Male,White,Ipswich,Other,No,Positive,0.57,0.57
+Age 16-19,Male,Unknown,Ipswich,Education,No,Negative,2.66,-2.66
+Age 13-15,Female,Unknown,Ipswich,Education,No,Positive,1.76,1.76
+Age 13-15,Male,White,Ipswich,Mental Health,Yes,Positive,3.1,3.1
+Age 13-15,Female,Mixed,Ipswich,Unknown,No,Positive,7.89,7.89
+Age 13-15,Female,White,Ipswich,Education,No,Negative,3.1,-3.1
+Age 13-15,Male,Unknown,Ipswich,Education,No,Positive,6.53,6.53
+Age 25+,Male,Unknown,Ipswich,Mental Health,No,Positive,18.64,18.64
+Age 13-15,Male,White,Ipswich,Education,No,Positive,6.68,6.68
+Age 13-15,Male,White,Ipswich,Education,No,Positive,6.13,6.13
+Age 13-15,Female,Unknown,Ipswich,Other,No,Positive,5.26,5.26
+Age 13-15,Female,Unknown,Ipswich,Education,No,Positive,3.35,3.35
+Age 25+,Female,White,Ipswich,Mental Health,No,Positive,4.11,4.11
+Age 25+,Female,Unknown,Ipswich,Mental Health,No,Positive,0.52,0.52
+Age 13-15,Male,White,Ipswich,Mental Health,No,Positive,8.47,8.47
+Age 13-15,Male,White,Ipswich,Education,No,Negative,0.73,-0.73
+Age 4-9,Male,White,Ipswich,Mental Health,Yes,Positive,3.1,3.1
+Age 4-9,Male,White,Ipswich,Local Government,No,Negative,0.81,-0.81
+Age 16-19,Male,White,Ipswich,Education,Yes,Positive,3.1,3.1
+Age 10-12,Male,White,Ipswich,Local Government,No,Positive,0.81,0.81
+Age 16-19,Male,White,Ipswich,Education,No,Negative,1.67,-1.67
+Age 13-15,Male,Unknown,Ipswich,Education,No,Positive,5.52,5.52
+Age 13-15,Male,White,Ipswich,Education,No,Positive,2.75,2.75
+Age 13-15,Male,White,Ipswich,Education,No,Negative,1.67,-1.67
+Age 13-15,Male,White,Ipswich,Education,No,Positive,6.77,6.77
+Age 20-24,Female,Declined to say,Ipswich,Unknown,No,Positive,2.75,2.75
+Age 16-19,Male,Unknown,Ipswich,Education,No,Positive,4.3,4.3
+Age 13-15,Other,White,Ipswich,Mental Health,No,No change,0,0
+Age 10-12,Female,White,Ipswich,Mental Health,Yes,Positive,0.81,0.81
+Age 13-15,Female,White,Ipswich,Unknown,Yes,Positive,5.29,5.29
+Age 16-19,Male,Unknown,Ipswich,Mental Health,Yes,Positive,2.66,2.66
+Age 13-15,Unknown,Unknown,Ipswich,Mental Health,Yes,Negative,0.61,-0.61
+Age 13-15,Female,White,Ipswich,Unknown,No,No change,0,0
+Age 10-12,Male,Unknown,Ipswich,Other,Yes,Positive,12.72,12.72
+Age 13-15,Female,White,Ipswich,Unknown,No,Positive,2.08,2.08
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Positive,0.66,0.66
+Age 10-12,Female,White,Ipswich,Mental Health,Yes,Positive,7.78,7.78
+Age 13-15,Unknown,Unknown,Ipswich,Local Government,Yes,Positive,5.99,5.99
+Age 13-15,Male,Declined to say,Ipswich,Unknown,No,Positive,16.41,16.41
+Unknown,Male,White,Ipswich,Education,No,Positive,2,2
+Age 13-15,Male,Unknown,Ipswich,Mental Health,No,Positive,6.3,6.3
+Age 13-15,Male,White,Ipswich,Mental Health,Yes,Positive,3.23,3.23
+Age 16-19,Male,Unknown,Ipswich,Mental Health,No,Positive,3.1,3.1
+Age 16-19,Female,White,Ipswich,Education,Yes,Positive,3.84,3.84
+Age 13-15,Male,White,Ipswich,Education,Yes,Positive,4.48,4.48
+Age 4-9,Male,White,Ipswich,Mental Health,Yes,Positive,0.9,0.9
+Age 16-19,Female,Unknown,Ipswich,Mental Health,No,Positive,4.66,4.66
+Age 13-15,Male,Unknown,Ipswich,Local Government,Yes,Positive,6.85,6.85
+Unknown,Female,White,Ipswich,Unknown,No,Negative,6.13,-6.13
+Age 13-15,Female,White,Ipswich,Unknown,Yes,Positive,2.29,2.29
+Age 10-12,Male,Unknown,Ipswich,Education,Yes,No change,0,0
+Age 13-15,Male,White,Ipswich,Education,Yes,Positive,20.15,20.15
+Age 13-15,Female,White,Ipswich,Mental Health,Yes,No change,0,0
+Age 13-15,Male,White,Ipswich,Local Government,No,Positive,1.71,1.71
+Age 13-15,Male,White,Ipswich,Mental Health,No,Positive,0.81,0.81
+Age 13-15,Female,White,Ipswich,Education,Yes,Negative,4.11,-4.11
+Age 13-15,Male,White,Ipswich,Education,No,Negative,2.57,-2.57
+Age 13-15,Male,White,Ipswich,Education,No,Negative,14.54,-14.54
+Age 10-12,Male,White,Ipswich,Local Government,No,Positive,4.02,4.02
+Age 13-15,Female,White,Ipswich,Education,No,Positive,5.18,5.18
+Age 13-15,Male,White,Ipswich,Local Government,Yes,Positive,4.3,4.3
+Age 25+,Female,White,Ipswich,Mental Health,No,No change,0,0
+Age 16-19,Female,Mixed,Ipswich,Unknown,Yes,Positive,7.37,7.37
+Age 13-15,Male,Unknown,Ipswich,Mental Health,Yes,Positive,3.38,3.38
+Age 13-15,Male,White,Ipswich,Education,No,No change,0,0
+Age 13-15,Male,White,Ipswich,Education,No,Positive,1.85,1.85
+Age 13-15,Female,White,Ipswich,Mental Health,Yes,Positive,1.82,1.82
+Age 16-19,Female,White,Ipswich,Mental Health,Yes,Positive,4.62,4.62
+Age 13-15,Unknown,Unknown,Ipswich,Local Government,Yes,No change,0,0
+Unknown,Female,Unknown,Ipswich,Mental Health,No,Positive,6.68,6.68
+Age 10-12,Female,White,Ipswich,Mental Health,No,Positive,2.68,2.68
+Age 16-19,Female,Unknown,Ipswich,Mental Health,No,Positive,4.51,4.51
+Age 13-15,Female,Unknown,Ipswich,Local Government,Yes,Negative,4.1,-4.1
+Age 13-15,Unknown,Unknown,Ipswich,Education,Yes,Positive,3.56,3.56
+Age 13-15,Unknown,Unknown,Ipswich,Local Government,Yes,Positive,1.62,1.62
+Age 13-15,Male,White,Ipswich,Mental Health,Yes,Positive,5.41,5.41
+Age 10-12,Female,White,Ipswich,Education,Yes,Positive,1.61,1.61
+Age 16-19,Unknown,Unknown,Ipswich,Local Government,Yes,Positive,2.75,2.75
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Positive,2.37,2.37
+Age 13-15,Other,Unknown,Ipswich,Mental Health,Yes,Positive,4.92,4.92
+Age 20-24,Unknown,Unknown,Ipswich,Mental Health,Yes,Positive,7.75,7.75
+Age 16-19,Male,Unknown,Ipswich,Mental Health,No,Positive,6.68,6.68
+Age 10-12,Male,Unknown,Ipswich,Unknown,Yes,Negative,1.62,-1.62
+Age 20-24,Female,Unknown,Ipswich,Mental Health,Yes,Positive,2.37,2.37
+Age 13-15,Male,Unknown,Ipswich,Local Government,Yes,Positive,6.1,6.1
+Age 20-24,Male,White,Ipswich,Mental Health,No,No change,0,0
+Age 16-19,Female,White,Ipswich,Mental Health,No,Positive,8.15,8.15
+Age 25+,Male,Unknown,Ipswich,Other,No,Positive,8.44,8.44
+Age 25+,Male,White,Ipswich,Mental Health,Yes,Negative,0.86,-0.86
+Age 13-15,Unknown,Unknown,Ipswich,Education,Yes,No change,0,0
+Age 16-19,Female,White,Ipswich,Mental Health,No,Positive,3.1,3.1
+Age 10-12,Male,Mixed,Ipswich,Local Government,Yes,Positive,1.85,1.85
+Age 13-15,Male,White,Ipswich,Mental Health,Yes,Positive,5.2,5.2
+Age 10-12,Male,Unknown,Ipswich,Education,No,Positive,2,2
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Positive,1.62,1.62
+Age 13-15,Unknown,Unknown,Ipswich,Mental Health,Yes,Negative,1.39,-1.39
+Age 13-15,Unknown,Unknown,Ipswich,Education,Yes,Positive,3.1,3.1
+Age 25+,Male,Unknown,Ipswich,Local Government,Yes,Positive,10.02,10.02
+Age 16-19,Female,White,Ipswich,Local Government,No,Positive,9.16,9.16
+Age 25+,Male,White,Ipswich,Other,Yes,Positive,1.82,1.82
+Age 25+,Male,White,Ipswich,Mental Health,No,Positive,4.11,4.11
+Age 25+,Male,Unknown,Ipswich,Mental Health,No,Positive,4.86,4.86
+Age 13-15,Female,White,Ipswich,Mental Health,No,Positive,1.04,1.04
+Age 13-15,Male,White,Ipswich,Local Government,Yes,Negative,5.78,-5.78
+Age 13-15,Female,Unknown,Ipswich,Other,No,Positive,7.05,7.05
+Age 16-19,Male,White,Ipswich,Local Government,No,Positive,1.62,1.62
+Age 13-15,Male,White,Ipswich,Education,No,Positive,2.89,2.89
+Age 25+,Male,Unknown,Ipswich,Other,No,Positive,2,2
+Age 10-12,Male,Unknown,Ipswich,Local Government,No,Negative,3.3,-3.3
+Age 16-19,Male,White,Ipswich,Education,No,Positive,1.67,1.67
+Age 13-15,Male,White,Ipswich,Education,No,Positive,5.47,5.47
+Age 13-15,Male,White,Ipswich,Mental Health,No,Positive,3.82,3.82
+Age 13-15,Other,White,Ipswich,Mental Health,No,Positive,2.23,2.23
+Age 13-15,Female,White,Ipswich,Mental Health,No,Positive,3.56,3.56
+Age 10-12,Male,Unknown,Ipswich,Mental Health,Yes,Positive,1.67,1.67
+Age 13-15,Male,White,Ipswich,Unknown,No,Positive,2.57,2.57
+Age 16-19,Unknown,Unknown,Ipswich,Unknown,Yes,No change,0,0
+Age 16-19,Female,White,Ipswich,Mental Health,Yes,Negative,3.49,-3.49
+Age 20-24,Male,White,Ipswich,Other,Yes,Positive,8.59,8.59
+Age 13-15,Male,White,Ipswich,Education,No,Positive,3.1,3.1
+Age 10-12,Male,Mixed,Ipswich,Unknown,No,No change,0,0
+Age 16-19,Female,Asian,Ipswich,Unknown,No,Positive,2.13,2.13
+Age 13-15,Male,Unknown,Ipswich,Local Government,Yes,Negative,1.62,-1.62
+Age 16-19,Male,Unknown,Ipswich,Local Government,No,Positive,4.62,4.62
+Age 13-15,Unknown,Unknown,Ipswich,Unknown,Yes,Negative,1.56,-1.56
+Age 13-15,Male,White,Ipswich,Local Government,No,Positive,2,2
+Age 16-19,Female,White,Ipswich,Mental Health,No,Positive,0.73,0.73
+Age 13-15,Male,White,Ipswich,Local Government,No,Positive,1.82,1.82
+Age 25+,Male,White,Ipswich,Local Government,No,Positive,2.89,2.89
+Age 20-24,Female,Declined to say,Ipswich,Unknown,No,Positive,5.81,5.81
+Age 10-12,Male,White,Ipswich,Local Government,No,Negative,3.23,-3.23
+Age 13-15,Female,White,Ipswich,Mental Health,Yes,Positive,2.75,2.75
+Age 10-12,Female,White,Ipswich,Mental Health,No,Positive,8.15,8.15
+Age 10-12,Male,Unknown,Ipswich,Education,No,Positive,1.62,1.62
+Age 10-12,Unknown,Unknown,Ipswich,Mental Health,Yes,Negative,0.75,-0.75
+Age 13-15,Male,Unknown,Ipswich,Local Government,Yes,Negative,1.39,-1.39
+Age 16-19,Male,White,Ipswich,Mental Health,No,Positive,4.14,4.14
+Age 13-15,Female,White,Ipswich,Mental Health,Yes,Positive,3.56,3.56
+Age 10-12,Male,White,Ipswich,Mental Health,Yes,Positive,3.49,3.49
+Age 25+,Male,Unknown,Ipswich,Mental Health,No,Positive,4.1,4.1
+Age 20-24,Female,White,Ipswich,Unknown,Yes,Positive,5.29,5.29
+Age 13-15,Male,Unknown,Ipswich,Education,No,No change,0,0
+Age 13-15,Female,White,Ipswich,Mental Health,Yes,Negative,2.37,-2.37
+Age 16-19,Male,White,Lincoln,Other,Yes,No change,0,0
+Age 16-19,Male,Mixed,Milton Keynes,Other,No,Positive,1.48,1.48
+Age 13-15,Male,White,Milton Keynes,Other,No,Positive,6.96,6.96
+Age 13-15,Male,White,London,Local Government,Yes,Positive,7.4,7.4
+Age 16-19,Female,White,Norwich,Unknown,Yes,Positive,9.97,9.97
+Age 13-15,Male,White,Norwich,Education,No,Negative,1.1,-1.1
+Age 16-19,Unknown,Unknown,Norwich,Other,Yes,Positive,2.75,2.75
+Unknown,Female,Unknown,Norwich,Mental Health,Yes,Positive,13.73,13.73
+Age 16-19,Male,Unknown,Norwich,Education,No,Positive,5.78,5.78
+Age 13-15,Male,White,Norwich,Mental Health,Yes,Positive,3.62,3.62
+Age 13-15,Male,White,Norwich,Education,No,No change,0,0
+Age 16-19,Male,White,Norwich,Education,No,Positive,1.82,1.82
+Age 10-12,Male,Unknown,Norwich,Education,No,Positive,3.49,3.49
+Age 16-19,Male,Unknown,Norwich,Education,No,Negative,1.62,-1.62
+Age 16-19,Unknown,Unknown,Norwich,Local Government,Yes,Positive,2.75,2.75
+Age 13-15,Male,White,Norwich,Education,No,Negative,0.86,-0.86
+Age 10-12,Male,Unknown,Norwich,Education,No,No change,0,0
+Age 16-19,Male,White,Norwich,Unknown,No,Negative,6.77,-6.77
+Age 16-19,Female,Unknown,Norwich,Other,No,Positive,3.1,3.1
+Age 16-19,Male,White,Norwich,Unknown,No,Positive,8.04,8.04
+Age 10-12,Male,Unknown,Norwich,Local Government,No,Positive,6.59,6.59
+Age 13-15,Male,White,Norwich,Education,No,No change,0,0
+Age 16-19,Male,Declined to say,Norwich,Education,No,Negative,1.67,-1.67
+Age 13-15,Declined to say,Declined to say,Norwich,Education,Yes,Negative,13.73,-13.73
+Age 13-15,Unknown,Unknown,Norwich,Local Government,Yes,Negative,0.75,-0.75
+Age 10-12,Male,Unknown,Norwich,Education,No,Negative,4.13,-4.13
+Age 13-15,Unknown,Unknown,Norwich,Local Government,Yes,No change,0,0
+Age 13-15,Male,White,Peterborough,Unknown,No,Positive,2.14,2.14
+Age 13-15,Male,White,Peterborough,Unknown,Yes,Negative,3.1,-3.1
+Age 13-15,Male,White,Peterborough,Other,Yes,No change,0,0
+Age 13-15,Male,White,Peterborough,Education,Yes,Positive,2.48,2.48
+Age 10-12,Unknown,Unknown,Peterborough,Education,Yes,Positive,13.3,13.3
+Age 13-15,Unknown,Unknown,Peterborough,Local Government,Yes,Positive,1.91,1.91
+Age 13-15,Male,Unknown,Peterborough,Education,Yes,Negative,3.23,-3.23
+Age 10-12,Male,White,Peterborough,Education,No,No change,0,0
+Age 4-9,Female,White,Peterborough,Education,No,Positive,4.48,4.48
+Age 4-9,Female,White,Peterborough,Education,No,Negative,10.89,-10.89
+Age 10-12,Unknown,Unknown,Peterborough,Education,Yes,Positive,2.68,2.68
+Age 10-12,Male,White,Peterborough,Other,Yes,No change,0,0
+Age 25+,Other,Unknown,Peterborough,Other,Yes,Positive,4.37,4.37
+Age 20-24,Male,Unknown,Peterborough,Education,No,Positive,1.07,1.07
+Age 13-15,Male,Mixed,Peterborough,Other,No,Positive,3.29,3.29
+Age 13-15,Declined to say,Unknown,Peterborough,Other,Yes,Negative,1.48,-1.48
+Age 13-15,Unknown,Unknown,Peterborough,Education,Yes,Positive,3.67,3.67
+Age 16-19,Male,White,Peterborough,Education,No,Negative,1.62,-1.62
+Age 10-12,Female,White,Peterborough,Other,Yes,No change,0,0
+Age 13-15,Male,Unknown,Peterborough,Education,No,Positive,6.96,6.96
+Age 13-15,Male,White,Peterborough,Education,No,Negative,1.76,-1.76
+Age 13-15,Male,White,Peterborough,Education,No,Positive,5.52,5.52
+Age 13-15,Male,White,Peterborough,Education,No,Positive,0.92,0.92
+Age 13-15,Male,Unknown,Peterborough,Education,No,Negative,0.55,-0.55
+Age 16-19,Male,Unknown,Peterborough,Education,No,Positive,3.67,3.67
+Age 16-19,Male,Unknown,Peterborough,Education,No,Positive,2.37,2.37
+Age 13-15,Male,White,Peterborough,Other,No,Positive,1.27,1.27
+Age 13-15,Male,White,Peterborough,Other,No,Positive,6.13,6.13
+Age 13-15,Male,White,Peterborough,Education,No,Positive,3.67,3.67
+Unknown,Male,Mixed,Peterborough,Education,No,Positive,10.72,10.72
+Age 13-15,Male,Unknown,Peterborough,Education,Yes,Positive,7.46,7.46
+Age 10-12,Male,White,Peterborough,Education,Yes,Positive,5.2,5.2
+Unknown,Male,White,Peterborough,Education,No,Negative,1.76,-1.76
+Age 13-15,Female,Black,Romford,Local Government,Yes,Positive,3.96,3.96
+Age 13-15,Male,Unknown,Romford,Local Government,Yes,Positive,1.62,1.62
+Age 13-15,Female,White,Romford,Local Government,Yes,Positive,7.03,7.03
+Age 13-15,Female,Mixed,Romford,Local Government,Yes,Positive,3.1,3.1
+Age 13-15,Female,White,Romford,Local Government,Yes,Positive,1.1,1.1
+Age 13-15,Female,White,Romford,Local Government,Yes,Positive,3.49,3.49
+Age 13-15,Male,White,Romford,Local Government,Yes,Negative,4.68,-4.68
+Age 16-19,Female,Black,Romford,Local Government,Yes,Positive,2.28,2.28
+Age 16-19,Male,Black,Romford,Local Government,Yes,Negative,5.69,-5.69
+Age 10-12,Male,White,Romford,Local Government,Yes,Positive,1.99,1.99
+Age 16-19,Female,Black,Romford,Local Government,Yes,No change,0,0
+Age 13-15,Male,Unknown,Stevenage,Education,Yes,Positive,0.73,0.73
+Age 13-15,Female,White,Stevenage,Other,Yes,Positive,4.37,4.37
+Age 16-19,Male,Unknown,Stevenage,Education,No,Negative,1.04,-1.04
+Unknown,Male,Unknown,Stevenage,Education,No,Positive,6.59,6.59
+Age 13-15,Female,Unknown,Salisbury,Education,Yes,Positive,5.23,5.23

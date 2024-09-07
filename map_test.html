@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choropleth Map</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="map_test.css">
+</head>
+<body>
+  <div class="grid-container">
+    <div class="text-section">
+      <!-- Static intro text goes here -->
+      <p>We strive to transform how individuals see themselves and their world, by bringing music mentoring programs to at risk youth.
+        We know we’re having an impact, because our participants say so. <br><br>
+        
+        Before and after each 10-week program, each participant completes the <a href="https://www.corc.uk.net/outcome-experience-measures/short-warwick-edinburgh-mental-wellbeing-scale-swemwbs/" target="_blank">short Warwick–Edinburgh Mental Wellbeing Scale (WEMWBS) survey</a>, in which they report how often they felt relaxed, useful, close to other people, or optimistic about the future (and several other markers, like clear thinking and autonomous decision making).<br><br>
+        
+        Noise Solution consistently reports an average increase of 2.38 points in SWEMWBS scores, which translates to young people feeling better about themselves and their lives.<br><br>
+        
+        See for yourself. Explore the tools here to see average score changes by location, age group, gender, ethnicity, and other factors.</p>
+    </div>
+    <div class="graphs-section">
+        <div class="bar-chart-and-info">
+          <div id="bar-chart"></div>
+          <div id="info-box">
+            <!-- Dynamic data points will be displayed here -->
+          </div>
+        </div>
+        <div class="pie-charts">
+          <div id="pie-chart-ethnicity"></div>
+          <div id="pie-chart-gender"></div>
+          <div id="pie-chart-industry"></div>
+        </div>
+      </div>
+      
+      <div class="map-section">
+        <div id="map"></div>
+      </div>
+  
+      <div id="tooltip" style="position: absolute; visibility: hidden; background-color: #333; color: white; padding: 5px; border-radius: 3px; pointer-events: none;"></div>
+
+  
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="map_test.js"></script>
+</body>
+</html>

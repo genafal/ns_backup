@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant Demographics</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="container">
+
+        <h1>Participant Demographics</h1>
+    
+        <!-- Controls: Dropdowns for x-axis and y-axis -->
+        <div id="scatter-controls" class="control-group">
+            <label for="x-axis">Compare:</label>
+            <select id="x-axis" class="dropdown"></select>
+    
+            <label for="y-axis">To:</label>
+            <select id="y-axis" class="dropdown"></select>
+        </div>
+    
+        <!-- Legend -->
+        <div id="legend-container">
+            <div id="legend" class="legend-items"></div>
+        </div>
+    
+        <!-- Scatterplot -->
+        <div id="chart-container">
+            <svg width="1400" height="800"></svg>
+        </div>
+
+    </div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <script src="demographic.js"></script>
+</body>
+</html>

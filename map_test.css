@@ -1,0 +1,200 @@
+  body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      background-color: black;
+      height: 100%;
+      display: flex;
+      font-size: 14pt;
+      flex-direction: column; /* Stack children vertically */
+    }
+
+  .banner {
+    width: 100%; /* Ensure the banner spans the full width of the page */
+    box-sizing: border-box; /* Include padding and border in the element's width and height */
+    background-color: black;
+    padding: 50px 100px;
+    height: 180px;
+    display: flex;
+    align-items: flex-end; /* Align links to the bottom */
+    justify-content: space-between;
+
+  }
+
+  .banner-left {
+    display: flex;
+    align-items: flex-end; /* Align SVG to the bottom */
+    margin-right: auto; /* Ensure it stays on the left with space from the edge */
+
+  }
+
+  .banner-right {
+    display: flex;
+    gap: 10px; /* Space between the links */
+    align-items: flex-end; /* Align links to the bottom */
+    margin-left: auto; /* Pushes this container to the right */
+
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns: left for text/graphs, right for map */
+    grid-template-rows: auto 1fr; /* Adjust based on available space */
+    height: auto;
+    gap: 10px; /* Reduced gap to save space */
+    padding: 2% 100px;
+  }
+  
+  .text-section {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    border-radius: 5px;
+    
+  }
+  
+  .map-section {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; /* Add padding to the top */
+    padding-right: 50px; /* Add padding to the right */
+  }
+  
+  #map svg {
+    width: 90%;
+    height: auto;
+    max-height: 90vh;
+  }
+  
+  .graphs-section {
+    grid-column: 1 / 2; /* First column */
+    grid-row: 2 / 3; /* Second row */
+    display: grid;
+    grid-template-rows: minmax(200px, 1fr) minmax(200px, 1fr); /* Flexible rows */
+    gap: 10px;
+    padding: 10px; /* Add padding for better spacing */
+    width: 100%;
+  }
+
+  .bar-chart-and-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 2/3 for bar chart, 1/3 for info box */
+    gap: 10px;
+    overflow: visible;
+    align-items: center; /* Align bar chart and info box to the bottom */
+    width: 100%;
+  }
+  
+  #bar-chart {
+    grid-row: 1 / 2;
+    /*padding-bottom: 10vh;  Add padding to ensure labels fit */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: visible; /* Ensure content isn't clipped */
+    width: 100%;
+    height: auto; /* Make it responsive */
+  }
+
+  #info-box {
+    font-size: 1rem; /* 16px equivalent */
+    grid-column: 2 / 3;
+    /*padding-bottom: 55px;   Adjust to match the bar height */
+    border-radius: 5px;
+    align-self: flex-end; /* Align the info-box to the bottom */
+    align-items: flex-end; /* Align the content within the info-box to the bottom */
+    display: flex;
+    transform: translateY(-60px); /* Move the info-box up by 50px */
+  }  
+  
+  .pie-charts {
+    grid-row: 2 / 3;
+    display: grid;
+    /* flex-direction: row; /* Aligns pie charts side by side */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+    gap: 10px; /* Adds space between the pie charts */
+    justify-items: start; /* Align pie charts to the left */
+
+  }
+  
+  .pie-charts > div {
+    flex: 1;
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    aspect-ratio: 1; /* Ensure a consistent aspect ratio */
+  }
+
+  #bar-chart, .pie-charts > div {
+    justify-self: start; /* Align the bar chart and pie charts to the start (left) */
+  }
+  
+  #tooltip {
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 0.75rem; /* 12px equivalent */
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+    color: #beff00; /* Link color */
+    text-decoration: none; /* Remove underline */  
+    font-size: 20px; /* Set font size */
+  }
+
+  a:hover {
+    color: #9979e4; /* Change color on hover */
+    text-decoration: none; /* Remove underline */  
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .banner a {
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1em;
+  }
+
+  .banner a:hover {
+      text-decoration: underline;
+  }
+  .iframe-container {
+      flex-grow: 1; /* Allows the iframe to grow and fill remaining space */
+      width: 100%;
+      height: calc(100vh - 50px);
+      border: none;
+  }
+
+  .iframe-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+  }
+
+  .banner-svg {
+      height: 100px; /* Adjust SVG size as needed */
+      vertical-align: bottom; /* Align the SVG itself to the bottom if needed */
+  }
+

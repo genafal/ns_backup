@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noise Solution - We See People Not Problems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: black;
+            display: flex;
+            color: white; /* Set text color to white */
+            font-size: 20px;
+        }
+
+        p {
+            line-height: 1.2; /* Adds more space between lines of text */
+        }
+
+        .important {
+            color: #beff00;
+            font-weight: bolder;
+        }
+
+        .indented-text {
+            padding-right: 5%; /* Indents the text from the right by 5% */
+            padding-left: 3%; /* Indents the text from the left by 5% */
+        }   
+        
+        a {
+            font-family: 'Montserrat', sans-serif;
+            color: #9979e4; /* Link color */
+            text-decoration: none; /* Remove underline */  
+        }
+
+        a:hover {
+            color: #d2c6ec; /* Change color on hover */
+            text-decoration: none; /* Remove underline */  
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 62% 38%;
+            width: 100%;
+            height: 80vh;
+            padding: 10px;
+            gap: 10px;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 2%;
+        }
+
+        .left-column {
+            display: grid;
+            grid-template-rows: 1fr 2fr;
+            background-color: black;
+            row-gap: 10px; /* Adds a 10px gap between the rows */
+           
+        }
+
+        .right-column {
+            background-color: black;    
+        }
+
+        .row {
+            background-color: black;   
+        }
+
+        .row img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            max-height: 80%;
+            object-fit: contain; /* Ensures the image scales properly while maintaining aspect ratio */
+        }
+
+        .right-column img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            max-height: 90vh;
+            object-fit: contain; /* Ensures the image scales properly while maintaining aspect ratio */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div class="row">
+                <!-- Static intro text goes here -->
+      <p class="indented-text">We strive to transform how individuals see themselves and their world, by bringing music mentoring programs to at risk youth.
+        We know we’re having an impact, because our participants say so. <br><br>
+        
+        Before and after each 10-week program, each participant completes the <a href="https://www.corc.uk.net/outcome-experience-measures/short-warwick-edinburgh-mental-wellbeing-scale-swemwbs/" target="_blank">short Warwick–Edinburgh Mental Wellbeing Scale (WEMWBS) survey</a>, in which they report how often they felt relaxed, useful, close to other people, or optimistic about the future (and several other markers, like clear thinking and autonomous decision making).<br><br>
+        
+        Noise Solution consistently reports an <span class="important">average increase of 2.38 points in SWEMWBS scores</span>, which translates to young people feeling better about themselves and their lives.<br><br>
+        
+        See for yourself. Explore the tools here to see average score changes by location, age group, gender, ethnicity, and other factors.</p>
+            </div>
+            <div class="row">
+                <!-- Image in Left Row 2 -->
+                <img src="charts_static.png" alt="Image in Left Row 2">        
+            </div>
+        </div>
+        <div class="right-column">
+            <!-- Image in Right Column -->
+            <img src="map_static.png" alt="Image in Right Column">
+        </div>
+    </div>
+</body>
+</html>

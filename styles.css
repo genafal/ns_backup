@@ -1,0 +1,328 @@
+/* Center the graphic container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align all elements horizontally */
+    /* justify-content: center; Center-align all elements vertically */
+    gap: 20px; /* Space between each section */
+    height: 90vh;
+    text-align: center; /* Centers text and inline elements */
+    padding-left: 15%;   /* Optional padding for content */
+    padding-right: 15%;   /* Optional padding for content */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+/* General text elements */
+h1, p, label, select, #result, #avg-score, .controls label, .controls select, .x-axis text, .y-axis text, .axis-title, text, #tooltip, .legend-item text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700; /* Bold */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #a371f7;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+a:hover {
+    color: #e1e1e1;
+}
+
+
+label, select {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+select {
+    padding: 5px;
+    
+}
+
+#result {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#avg-score {
+    font-weight: 700; /* Bold */
+    color: #beff00;
+}
+
+/* Style for the control section */
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 70%;
+    padding-left: 15%;   /* Optional padding for content */
+    padding-right: 15%;   /* Optional padding for content */
+}
+
+/* Ensure that labels and dropdowns are visible on the dark background */
+.controls label,
+.controls select {
+    color: white;
+}
+
+/* Style the dropdown menus */
+.controls select {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 5px;
+}
+
+.x-axis text,
+.y-axis text {
+    fill: white;
+}
+
+.x-axis path,
+.x-axis line,
+.y-axis path,
+.y-axis line {
+    stroke: white;
+}
+
+svg {
+    border: 0px solid #ccc;
+}
+
+.x-axis text,
+.y-axis text {
+    font-size: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    fill: white; 
+}
+
+.axis-title {
+    font-size: 18px; /* Adjust font size for axis titles */
+    fill: white;
+    text-anchor: middle;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    pointer-events: none; /* Prevent tooltip from interfering with mouse events */
+    font-size: 14px;
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.2s ease; /* Smooth fade-in */
+}
+
+text {
+    fill: white;
+}
+
+#legend-container {
+    display: flex;
+    justify-content: center; /* Centers the legend horizontally */
+    align-items: center; /* Centers the legend vertically */
+    width: 100%; /* Takes the full width of the parent container */
+    margin: 10px 0;
+}
+
+#legend {
+    width: 100%;
+    max-width: 450px;
+    flex-shrink: 0;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center;
+    align-items: center; /* Vertically center the legend items */
+    gap: 30px; /* Controls spacing between legend items */
+}
+
+/* Legend items container */
+.legend-items {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Individual legend item */
+.legend-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.legend-item:last-child {
+    margin-right: 0;
+}
+
+.legend-item text {
+    font-size: 16px; /* Adjust the font size here */
+    fill: white; /* Keeps the text color white, change if needed */
+}
+/* SVG container for the scatterplot */
+#chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#map {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1200px;
+    position: relative;
+}
+
+#tooltip {
+    position: absolute;
+    opacity: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.center-text {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto; /* Adjust top/bottom and left/right margins */
+    width: 30%; /* This will ensure the div width aligns better with the heading */
+}
+
+/* Center the beeswarm chart container */
+#beeswarm-chart-container {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Center the SVG within the container */
+#beeswarm-chart-container svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ensure the SVG is centered */
+svg#average-score-graph {
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Axis and Tick Styling */
+.axis line,
+.axis path {
+    stroke: #888; /* Darker grey for axis lines */
+}
+
+.axis text {
+    fill: #888; /* Darker grey for axis labels */
+    font-size: 16px; /* Larger font size for axis labels */
+    font-weight: bold; /* Optional: make labels bold */
+}
+
+.tick line {
+    stroke: #888; /* Darker grey for tick lines */
+}
+
+.tick text {
+    fill: #888; /* Darker grey for tick labels */
+    font-size: 14px; /* Larger font size for tick labels */
+}
+
+.banner {
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end; /* Align links to the bottom */
+    justify-content: flex-end; /* Align links to the left */
+    height: 180px; /* Adjust this value to match the height you want */
+    box-sizing: border-box; /* Ensure padding doesn't affect height */
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.banner-left {
+    display: flex;
+    align-items: flex-end; /* Align SVG to the bottom */
+}
+
+.banner-right {
+    display: flex;
+    gap: 20px; /* Space between the links */
+    align-items: flex-end; /* Align links to the bottom */
+}
+
+.banner-svg {
+    height: 50px; /* Adjust SVG size as needed */
+}
+
+.dropdown {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+}

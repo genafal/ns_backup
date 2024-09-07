@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="preload" href="uk_outcode_regions.geojson" as="fetch" crossOrigin="anonymous">
+    <link rel="preload" href="data_for_map.csv" as="fetch" crossOrigin="anonymous">
+    <link rel="stylesheet" href="combinedHB.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="map-container">
+        <div id="map"></div>
+        <div id="map-tooltip" class="tooltip"></div>
+    </div>
+
+    <div id="right-container">
+        <h1>Average SWEMWBS Score Change</h1>
+
+        <div id="highest-avg-score" class="center-text"></div>
+        <div id="lowest-avg-score" class="center-text"></div>
+
+        <p>Select the factors that interest you, to discover average SWEMWBS score changes across demographic groups.</p>
+
+        <div id="controls-container" class="controls">
+            <label for="age-group">Age Group:</label>
+            <select id="age-group" class="dropdown"></select>
+
+            <label for="location">Location:</label>
+            <select id="location" class="dropdown"></select>
+
+            <label for="ethnicity">Ethnicity:</label>
+            <select id="ethnicity" class="dropdown"></select>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" class="dropdown"></select>
+
+            <button id="clear-button">Clear</button>
+        </div>
+
+        <div id="result">Average Score Change: <span id="avg-score">0</span></div>
+
+        <div id="beeswarm-chart-container">
+            <svg></svg>
+            <div id="tooltip" class="tooltip"></div>
+        </div>
+    </div>
+
+
+
+    <script src="combinedHB.js"></script>
+</body>
+</html>

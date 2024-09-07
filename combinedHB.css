@@ -1,0 +1,124 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+#map-container {
+    flex: 1;
+    position: relative;
+    height: 100vh;
+}
+
+#map-container #map {
+    width: 100%;
+    height: 100%;
+}
+
+#right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+
+#controls-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#result {
+    display: none;
+    text-align: center;
+}
+
+#beeswarm-chart-container {
+    flex: 1;
+    position: relative;
+    overflow: auto;
+}
+
+.center-text {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: white;
+    border: none;  /* Remove the white border */
+}
+
+.controls label {
+    display: block;
+    margin-bottom: 5px;
+    /*color: white;*/
+}
+
+.controls button {
+    width: 100%;
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;  /* Remove the white border */
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tooltip {
+    position: absolute;
+    opacity: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    background-color: #222;
+    color: white;
+    font-size: 12px;
+}
+
+#map-tooltip {
+    position: absolute;
+    opacity: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    background-color: #222;
+    color: white;
+    font-size: 12px;
+}
+
+/* Axis and Tick Styling */
+.axis line,
+.axis path {
+    stroke: #888; /* Darker grey for axis lines */
+}
+
+.axis text {
+    fill: #888; /* Darker grey for axis labels */
+    font-size: 16px; /* Larger font size for axis labels */
+    font-weight: bold; /* Optional: make labels bold */
+}
+
+.tick line {
+    stroke: #888; /* Darker grey for tick lines */
+}
+
+.tick text {
+    fill: #888; /* Darker grey for tick labels */
+    font-size: 14px; /* Larger font size for tick labels */
+}
